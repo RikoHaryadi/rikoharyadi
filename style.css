@@ -16,6 +16,7 @@ body {
     position: relative;
 }
 
+
 .logo a {
     font-size: 50px;
     font-weight: 800;
@@ -202,7 +203,9 @@ p {
 
 #contact {
     background: #dedede;
-    padding:50px 0px 50px 0px;
+    padding:0px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .footer {
@@ -371,32 +374,70 @@ h3 {
     }
 
     .footer-section h3 {
-        font-size: 20px;
+        font-size: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;  
+        padding: 0px 0px 0px 10px;   
     }
     .footer-section p {
         font-size: 8px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 10px;
         
     }    
+    .footer {
+        margin-top: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    #contact {
+        margin-top: 0px;
+        padding: 0px 0px 0px 0px;
+    }
     .partner-list {
         width: 350px;
     }
     .kartu-partner img {
-        width: 80%;
+        width: 60%;
         border-radius: 50%;
     }
+    .kolom p {
+        font-size: 10px;
+        text-align: justify;
+    }
+    .kolom h2 {
+        font-size: 15px;
+    }
+    .ppriko img {
+        width: 150px;
+        margin-bottom: 0px;
+    }
+    .layout h1 {
+        font-size: 5px;
+    } 
+    .deskripsi  {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    
 
 }
-@media (max-width: 468px) {
-    .footer {
-        flex-direction: column;
+@media (max-width: 480px) {
+    .deskripsi  {
+        font-size: 20px;
+        text-align: center;
     }
-    .footer-section h3 {
-        font-size: 5px;
+    .kolom h2 {
+        margin-top: 2px;
+        padding-top: 0px;
     }
-    .footer-section p {
-        font-size: 5px;
-        
-    }    
+    .logo a {
+        font-size: 30px;
+        font-weight: 800;
+        float: left;
+
+    }
 }
 .layout {
     justify-content: center;
@@ -408,7 +449,10 @@ h3 {
     align-items: center;
     margin-left: 10px;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 25px;
     font-family: 'comic sans ms';
+    text-align: center;
 }
+
+
 
